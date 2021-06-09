@@ -6,9 +6,11 @@
 - Proje ilk önce var olan verilerin kendisini tahmin edip grafiğe yansıtıyor. Bir sonraki kademede ileriki zamanlarda tahmini enerji kullanımının grafiğini yansıtıyor ve terminale logluyor. Hepsini değil. Özellikle demek istediğim; grafikte sadece birkaç ayı gösteriyor. Detaylandırabilirsiniz.
 - Proje basit bir proje kullanıcılar var olan modeli kendi ihtiyaçlarına göre uyarlayabilir/modele daha fazla katmanlar ekleyebilir.
 - Derin modelleme için kullanılan paketler **TensorFlow ve Keras**'tır.
-- 2009 yılından itibaren başlıyor datamız ama;
+- 2009 yılından itibaren başlıyor datamız ama veri setinin üzerinden giderken;
 - Hazırladığım datada tüm yıllar içindeki aylar aynı. *Çünkü 1 yılı 12 aya bölerek aritmetik ortalamasını buldum*. Grafikte eğer çizgi düz giderse şaşırmayın.
 - ![X](https://i.imgur.com/MmXgIHj.png)
+- Gelecek verisi hazırlarken 2010 - 2020 arası yılları gösteriyor.
+- ![x2](https://i.imgur.com/dcudIXr.png)
 - Burada amaç derin öğrenme modelinin çalışma şeklini öğrenmek.
 ## Nasıl Kurarım?
 - Terminalinize ```pip install -r requirements.txt``` yazarak uygun modülleri yükleyebilirsiniz.
