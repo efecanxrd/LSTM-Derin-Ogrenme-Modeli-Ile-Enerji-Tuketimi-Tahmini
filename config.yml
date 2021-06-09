@@ -1,0 +1,9 @@
+train_test_split: 0.10
+#Data of the Past - Deep Learning Variabless
+lag: 2
+LSTM_layer_depth: 128
+epochs: 200
+#Future Data Deep Learning Variables
+F.lag: 2
+F.LSTM_layer_depth: 64
+F.epochs: 2000
