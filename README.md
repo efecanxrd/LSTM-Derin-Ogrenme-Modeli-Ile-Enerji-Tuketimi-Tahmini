@@ -4,10 +4,12 @@
 ## Ne yaptık?
 - LSTM ve Derin Öğrenme Modeliyle Hollanda ülkesinin ileriki zamanlarda kullanabileceği enerji miktarını hesapladık.
 - Proje ilk önce var olan verilerin kendisini tahmin edip grafiğe yansıtıyor. Bir sonraki kademede ileriki zamanlarda tahmini enerji kullanımının grafiğini yansıtıyor ve terminale logluyor. Hepsini değil. Özellikle demek istediğim; grafikte sadece birkaç ayı gösteriyor. Detaylandırabilirsiniz.
-- Hazırladığım datada tüm yıllar içindeki aylar aynı. *Çünkü 1 yılı 12 aya bölerek aritmetik ortalamasını buldum*. Grafikte eğer çizgi düz giderse şaşırmayın.
 - Proje basit bir proje kullanıcılar var olan modeli kendi ihtiyaçlarına göre uyarlayabilir/modele daha fazla katmanlar ekleyebilir.
 - Derin modelleme için kullanılan paketler **TensorFlow ve Keras**'tır.
-
+- 2009 yılından itibaren başlıyor datamız ama;
+- Hazırladığım datada tüm yıllar içindeki aylar aynı. *Çünkü 1 yılı 12 aya bölerek aritmetik ortalamasını buldum*. Grafikte eğer çizgi düz giderse şaşırmayın.
+- ![X](https://i.imgur.com/MmXgIHj.png)
+- Burada amaç derin öğrenme modelinin çalışma şeklini öğrenmek.
 ## Nasıl Kurarım?
 - Terminalinize ```pip install -r requirements.txt``` yazarak uygun modülleri yükleyebilirsiniz.
 - Python `3.7x` version gerekmektedir.
