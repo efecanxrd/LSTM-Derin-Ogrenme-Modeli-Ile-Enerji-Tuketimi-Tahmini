@@ -28,7 +28,7 @@ data = data.groupby('Datetime', as_index=False)['veri'].mean()
 data.sort_values('Datetime', inplace=True)
 
 #config dosyamızı tanımlayalım! =Importing Config File=
-with open(f'{os.getcwd()}\\conf.yml') as configfile:
+with open(f'{os.getcwd()}\\config.yml') as configfile:
     config = yaml.load(configfile, Loader=yaml.FullLoader)
     
 #LSTM var olan dataların üstünden geçerek var olan datayı tahmin etsin. =Let LSTM estimate the existing data by going over the existing data.=
