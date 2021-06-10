@@ -17,5 +17,5 @@
 - Python `3.7x` version gerekmektedir.
 
 ## Veri Kaynakçaları
-- [Kaggle](kaggle.com/lucabasa/dutch-energy) ama verisetini projeye dahil etmedim. Sütunlar toplanıp ortalamalar baz alınarak csv dosyası oluşturuldu!
+- [Kaggle](https://kaggle.com/lucabasa/dutch-energy) ama verisetini projeye dahil etmedim. Sütunlar toplanıp ortalamalar baz alınarak csv dosyası oluşturuldu!
 - Burda amaç zaten data değil derin öğrenme modeli örneği.
